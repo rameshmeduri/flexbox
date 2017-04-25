@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Flexbox DB</title>
-	<style type="text/css">
+	<style>
 		html,
 		body {
 			height: 100%;
@@ -17,23 +17,27 @@
 		}
 
 		li {
-			width: 100px;
-			height: 100px;
+			flex: 1 1 auto;
 		  	background-color: #8cacea;
 		 	margin: 8px;
+		 	min-height: 100px;
+		 	color: #fff;
 		 	padding: 4px;
 		}
-				
+		
+		li:nth-child(1) {
+			flex: 2 1 0; /*same as just writing flex: 2*/
+		}
+
+		li:nth-child(2){
+			flex: 1 1 0;
+		}		
 	</style>
 </head>
 <body>
 <ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
+	<li>I am one</li>	
+	<li>I am two</li>			  	 	 			
 </ul>
 </body>
 </html>

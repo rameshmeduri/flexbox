@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Understanding Flexbox - Justify Content</title>
-	<style type="text/css">
+	<title>Flexbox DB</title>
+	<style>
 		html,
 		body {
 			height: 100%;
@@ -10,7 +10,6 @@
 
 		ul {
 			display: flex;
-			justify-content: center; /*you may play with this value*/
 			border: 1px solid red;
 			padding: 0;
 			list-style: none;
@@ -18,21 +17,20 @@
 		}
 
 		li {
+			flex: 0 1 auto;
 		  	background-color: #8cacea;
-		  	width: 100px;
-		  	height: 100px;
 		 	margin: 8px;
+		 	min-height: 100px;
+		 	color: #fff;
 		 	padding: 4px;
 		}
-
+				
 	</style>
 </head>
 <body>
-  <ul>
-  	<li>1</li>
-  	<li>2</li>
-  	<li>3</li>
-  </ul>
-
+<ul>
+	<li>I am a simple list</li>	
+	<li>I am a simple list</li>		  	 	 			
+</ul>
 </body>
 </html>

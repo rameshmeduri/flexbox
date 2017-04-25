@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Flexbox DB</title>
-	<style type="text/css">
+	<style>
 		html,
 		body {
 			height: 100%;
@@ -10,7 +10,6 @@
 
 		ul {
 			display: flex;
-			flex-direction: column; /*you may play around with this value*/
 			border: 1px solid red;
 			padding: 0;
 			list-style: none;
@@ -18,21 +17,20 @@
 		}
 
 		li {
+			flex: 1 1 auto;
 		  	background-color: #8cacea;
 		 	margin: 8px;
+		 	min-height: 100px;
 		 	color: #fff;
 		 	padding: 4px;
-		 	width: 100px;
-		 	height: 100px;
 		}
 				
 	</style>
 </head>
 <body>
 <ul>
-	<li>List One</li>
-	<li>List Two</li>
-	<li>List Three</li>
+	<li>I am a simple list</li>	
+	<li>I am a simple list more content...more content!</li>		  	 	 			
 </ul>
 </body>
 </html>
