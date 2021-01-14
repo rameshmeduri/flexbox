@@ -20,10 +20,10 @@
 
 
 # The Flex Item Properties
-> order: <number>
-> flex-grow: <number>
-> flex-shrink: <number>
-> flex-basis: <width>
+> order: <number> 
+> flex-grow: <number> 
+> flex-shrink: <number> 
+> flex-basis: <width> 
 
 
 
